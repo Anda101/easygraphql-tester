@@ -1,0 +1,27 @@
+{
+  "name": "easygraphql-tester-forked",
+  "version": "0.0.0",
+  "description": "This is a demo for easygraphql-tester... used to test Queries and Mutationns on GraphQL.",
+  "keywords": [
+    "graphql",
+    "schema",
+    "testing"
+  ],
+  "homepage": "https://codesandbox.io/s/n9m2w9q8x0",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "4.2.0",
+    "easygraphql-tester": "6.0.0",
+    "graphql": "15.5.0",
+    "jest": "23.6.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
